@@ -1,12 +1,10 @@
 import javafx.application.Application
 import javafx.event.{ActionEvent, EventHandler}
-import javafx.geometry.Insets
-import javafx.geometry.Pos
-import javafx.scene.Group
-import javafx.scene.Scene
-import javafx.scene.control.{TextArea, ScrollPane, Button}
+import javafx.geometry.{Insets, Pos}
+import javafx.scene.{Group, Scene}
+import javafx.scene.control.{ScrollPane, Button}
 import javafx.scene.layout.VBox
-import javafx.scene.web.HTMLEditor
+import javafx.scene.web.{HTMLEditor, WebView}
 import javafx.stage.Stage
 
 object Main extends App {
@@ -41,20 +39,21 @@ class HTMLEditorSample extends Application {
     htmlEditor.setPrefHeight(245)
     htmlEditor.setHtmlText(INITIAL_TEXT)
 
-    val htmlCode = new TextArea()
-    htmlCode.setWrapText(true)
+    val browser = new WebView()
+    val webEngine = browser.getEngine()
 
     val scrollPane = new ScrollPane()
     scrollPane.getStyleClass().add("noborder-scroll-pane")
-    scrollPane.setContent(htmlCode)
+    scrollPane.setStyle("-fx-background-color: white")
+    scrollPane.setContent(browser)
     scrollPane.setFitToWidth(true)
     scrollPane.setPrefHeight(180)
 
-    val showHTMLButton = new Button("Produce HTML Code")
+    val showHTMLButton = new Button("Load Content in Browser")
     root.setAlignment(Pos.CENTER)
     showHTMLButton.setOnAction(new EventHandler[ActionEvent] {
       override def handle(event: ActionEvent): Unit = {
-        htmlCode.setText(htmlEditor.getHtmlText())
+        webEngine.loadContent(htmlEditor.getHtmlText())
       }
     })
 
