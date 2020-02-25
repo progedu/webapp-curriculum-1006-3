@@ -10,26 +10,27 @@ import javafx.scene.layout.VBox
 import javafx.scene.web.HTMLEditor
 import javafx.stage.Stage
 
-object Main extends App {
-  Application.launch(classOf[HTMLEditorSample], args: _*)
+object MailClient extends App {
+  Application.launch(classOf[MailClient], args: _*)
 }
 
-class HTMLEditorSample extends Application {
+class MailClient extends Application {
   val INITIAL_TEXT = """
-      |Lorem ipsum dolor sit 
-      |amet, consectetur adipiscing elit. Nam tortor felis, pulvinar 
-      |congue lectus in sodales. Nullam eu est a felis ornare 
-      |in scelerisque cursus, pulvinar at ante. Nulla consequat
-      |bibendum et nec tellus. Vivamus non metus tempus augue auctor 
-      |ornare. Duis pulvinar justo ac purus adipiscing pulvinar. 
-      |Integer congue faucibus dapibus. Integer id nisl ut elit 
-      |aliquam sagittis gravida eu dolor. Etiam sit amet ipsum 
-      |sem.""".stripMargin
+    |Lorem ipsum dolor sit 
+    |amet, consectetur adipiscing elit. Nam tortor felis, pulvinar 
+    |congue lectus in sodales. Nullam eu est a felis ornare 
+    |in scelerisque cursus, pulvinar at ante. Nulla consequat
+    |bibendum et nec tellus. Vivamus non metus tempus augue auctor 
+    |ornare. Duis pulvinar justo ac purus adipiscing pulvinar. 
+    |Integer congue faucibus dapibus. Integer id nisl ut elit 
+    |aliquam sagittis gravida eu dolor. Etiam sit amet ipsum 
+    |sem.""".stripMargin
 
-  override def start(primaryStage: Stage): Unit = {
+  override def start(stage: Stage): Unit = {
 
-    primaryStage.setTitle("Message Composing")
-    primaryStage.show()
+    stage.setTitle("Message Composing")
+    stage.setWidth(650)
+    stage.setHeight(500)
     val scene = new Scene(new Group())
 
     val root = new VBox()
@@ -66,6 +67,7 @@ class HTMLEditorSample extends Application {
 
     val htmlEditor = new HTMLEditor()
     htmlEditor.setPrefHeight(370)
+    htmlEditor.setHtmlText(INITIAL_TEXT)
 
     root.getChildren().addAll(htmlEditor, new Button("Send"))
 
@@ -73,9 +75,7 @@ class HTMLEditorSample extends Application {
     htmlLabel.setWrapText(true)
 
     scene.setRoot(root)
-    primaryStage.setScene(scene)
-    primaryStage.show()
-
-    htmlEditor.setHtmlText(INITIAL_TEXT)
+    stage.setScene(scene)
+    stage.show()
   }
 }
