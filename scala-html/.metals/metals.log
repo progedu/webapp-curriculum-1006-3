@@ -1,0 +1,56 @@
+INFO  started: Metals version 0.8.4 in workspace '/Users/taro/workspace/webapp-curriculum-1006-3/scala-html'
+INFO  time: initialize in 5.48s
+WARN  no build target for: /Users/taro/workspace/webapp-curriculum-1006-3/scala-html/src/main/scala/Main.scala
+4月 18, 2020 4:38:36 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 4
+INFO  no build target: using presentation compiler with only scala-library
+4月 18, 2020 4:38:42 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 7
+4月 18, 2020 4:38:42 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 9
+4月 18, 2020 4:38:42 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 10
+4月 18, 2020 4:38:42 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 8
+4月 18, 2020 4:38:42 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 11
+4月 18, 2020 4:41:20 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 807
+WARN  code navigation does not work for the file '/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/src/main/scala/Main.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/taro/workspace/webapp-curriculum-1006-3/scala-html/src/main/scala/Main.scala
+WARN  code navigation does not work for the file '/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/src/main/scala/Main.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/taro/workspace/webapp-curriculum-1006-3/scala-html/src/main/scala/Main.scala
+INFO  skipping build import with status 'Requested'
+INFO  running '/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/jl/qrdf1n6s3s7fhzn183n159sc0000gn/T/metals9691800538471072044/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  skipping build import with status 'Dismissed'
+INFO  [info] Loading settings for project scala-html-build from assembly.sbt,metals.sbt ...
+INFO  [info] Loading project definition from /Users/taro/workspace/webapp-curriculum-1006-3/scala-html/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project scala-html from build.sbt ...
+INFO  [info] Set current project to scala-html (in build file:/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/)
+INFO  [success] Generated .bloop/scala-html-test.json
+INFO  [success] Generated .bloop/scala-html.json
+INFO  [success] Total time: 2 s, completed 2020/04/18 16:46:47
+INFO  time: ran 'sbt bloopInstall' in 41s
+INFO  build tool exit: 0
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/jl/qrdf1n6s3s7fhzn183n159sc0000gn/T/bsp-launcher7068740204102146645/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/.bloop/scala-html-test.json'
+[0m[32m[D][0m Loading project from '/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/.bloop/scala-html.json'
+[0m[32m[D][0m Missing analysis file for project 'scala-html'
+[0m[32m[D][0m Missing analysis file for project 'scala-html-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/jl/qrdf1n6s3s7fhzn183n159sc0000gn/T/bsp-launcher7068740204102146645/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/jl/qrdf1n6s3s7fhzn183n159sc0000gn/T/bsp-launcher7068740204102146645/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/taro/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.79s
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+INFO  time: imported build in 0.14s
+INFO  time: indexed workspace in 4.11s
+WARN  unsupported Scala 2.12.7
+INFO  compiling scala-html (1 scala source)
+INFO  time: compiled scala-html in 22s
+WARN  unsupported Scala 2.12.7
