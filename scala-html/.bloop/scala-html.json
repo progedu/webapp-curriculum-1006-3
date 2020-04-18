@@ -1,0 +1,248 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "scala-html",
+        "directory": "/Users/taro/workspace/webapp-curriculum-1006-3/scala-html",
+        "workspaceDir": "/Users/taro/workspace/webapp-curriculum-1006-3/scala-html",
+        "sources": [
+            "/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/src/main/scala-2.12",
+            "/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/src/main/scala",
+            "/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/src/main/java",
+            "/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar",
+            "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea%2B25/javafx-base-11-ea%2B25-mac.jar",
+            "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea%2B25/javafx-controls-11-ea%2B25-mac.jar",
+            "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-fxml/11-ea%2B25/javafx-fxml-11-ea%2B25-mac.jar",
+            "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea%2B25/javafx-graphics-11-ea%2B25-mac.jar",
+            "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-web/11-ea%2B25/javafx-web-11-ea%2B25-mac.jar",
+            "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea%2B25/javafx-media-11-ea%2B25-mac.jar",
+            "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea%2B25/javafx-graphics-11-ea%2B25.jar",
+            "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea%2B25/javafx-controls-11-ea%2B25.jar",
+            "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea%2B25/javafx-base-11-ea%2B25.jar",
+            "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea%2B25/javafx-media-11-ea%2B25.jar"
+        ],
+        "out": "/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/.bloop/scala-html",
+        "classesDir": "/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/.bloop/scala-html/scala-2.12/classes",
+        "resources": [
+            "/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/src/main/resources",
+            "/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.7",
+            "options": [
+                "-deprecation",
+                "-feature",
+                "-unchecked",
+                "-Xlint"
+            ],
+            "jars": [
+                "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.7/scala-compiler-2.12.7.jar",
+                "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar",
+                "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7.jar",
+                "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar",
+                "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar"
+            ],
+            "analysis": "/Users/taro/workspace/webapp-curriculum-1006-3/scala-html/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/taro/workspace/webapp-curriculum-1006-3/scala-html"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-graphics",
+                    "version": "11-ea+25",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-graphics",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea%2B25/javafx-graphics-11-ea%2B25.jar"
+                        },
+                        {
+                            "name": "javafx-graphics",
+                            "classifier": "sources",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea%2B25/javafx-graphics-11-ea%2B25-sources.jar"
+                        },
+                        {
+                            "name": "javafx-graphics",
+                            "classifier": "mac",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/11-ea%2B25/javafx-graphics-11-ea%2B25-mac.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-controls",
+                    "version": "11-ea+25",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-controls",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea%2B25/javafx-controls-11-ea%2B25.jar"
+                        },
+                        {
+                            "name": "javafx-controls",
+                            "classifier": "sources",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea%2B25/javafx-controls-11-ea%2B25-sources.jar"
+                        },
+                        {
+                            "name": "javafx-controls",
+                            "classifier": "mac",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/11-ea%2B25/javafx-controls-11-ea%2B25-mac.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-base",
+                    "version": "11-ea+25",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-base",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea%2B25/javafx-base-11-ea%2B25.jar"
+                        },
+                        {
+                            "name": "javafx-base",
+                            "classifier": "sources",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea%2B25/javafx-base-11-ea%2B25-sources.jar"
+                        },
+                        {
+                            "name": "javafx-base",
+                            "classifier": "mac",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/11-ea%2B25/javafx-base-11-ea%2B25-mac.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-media",
+                    "version": "11-ea+25",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-media",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea%2B25/javafx-media-11-ea%2B25.jar"
+                        },
+                        {
+                            "name": "javafx-media",
+                            "classifier": "sources",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea%2B25/javafx-media-11-ea%2B25-sources.jar"
+                        },
+                        {
+                            "name": "javafx-media",
+                            "classifier": "mac",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/11-ea%2B25/javafx-media-11-ea%2B25-mac.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.7",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/taro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
