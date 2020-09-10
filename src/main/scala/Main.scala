@@ -10,25 +10,15 @@ object Main extends App {
 }
 
 class Main extends Application {
-// public class HTMLEditorSample extends Application {
 
   override def start(stage: Stage): Unit = {
-  //@Override
-  //public void start(Stage stage) {
     stage.setTitle("HTMLEditor Sample")
-    // stage.setWidth(650650)
     stage.setWidth(650)
     stage.setHeight(300)
     val htmlEditor = new HTMLEditor()
-    // final HTMLEditor htmlEditor = new HTMLEditor();
     htmlEditor.setPrefHeight(245)
     val scene = new Scene(htmlEditor)
-    // Scene scene = new Scene(htmlEditor);
     stage.setScene(scene)
     stage.show()
   }
-
-  // public static void main(String[] args) {
-
-  // }
 }
