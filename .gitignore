@@ -1,1 +1,11 @@
 target
+*.class
+*.log
+*.cache
+target/streams/
+target/bg-jobs/
+.bsp/
+.metals/
+.bloop/
+project/metals.sbt
+project/target/
