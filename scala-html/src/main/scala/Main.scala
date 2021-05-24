@@ -19,22 +19,3 @@ class Main extends Application {
     primaryStage.show()
   }
 }
-
-/*
-class Main extends Application {
-  Override
-  public void start(Stage stage) {
-      stage.setTitle("HTMLEditor Sample");
-      stage.setWidth(650650);
-      stage.setHeight(300);   
-      final HTMLEditor htmlEditor = new HTMLEditor();
-      htmlEditor.setPrefHeight(245);
-      Scene scene = new Scene(htmlEditor);       
-      stage.setScene(scene);
-      stage.show();
-  }
-
-  public static void main(String[] args) {
-      launch(args);
-  }
-}*/
